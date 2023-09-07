@@ -1,8 +1,9 @@
 package main
 
 import (
-	product "app/cmd/internal"
 	"fmt"
+
+	product "github.com/victoriamsuarez/backpack-go/cmd/internal"
 )
 
 // Algunas tiendas ecommerce necesitan realizar una funcionalidad en Go para administrar productos y retornar el valor del precio total.
