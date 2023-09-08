@@ -24,9 +24,6 @@ type NameCompleted struct {
 }
 
 func PostGreeting(c *gin.Context) {
-	// name := c.PostForm("name")
-	// lastName := c.PostForm("lastName")
-	// c.JSON(201, "Hola "+name+" "+lastName)
 	var nameComp NameCompleted
 	c.ShouldBindJSON(&nameComp)
 	c.JSON(201, "Hola "+nameComp.Name+" "+nameComp.LastName)

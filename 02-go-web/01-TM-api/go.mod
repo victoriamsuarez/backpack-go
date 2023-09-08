@@ -1,4 +1,4 @@
-module app
+module github.com/victoriamsuarez/web-server
 
 go 1.21.0
 
