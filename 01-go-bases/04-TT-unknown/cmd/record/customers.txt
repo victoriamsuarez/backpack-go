@@ -1,0 +1,37 @@
+[
+ {
+  "docket:": 1,
+  "name:": "Robert",
+  "id:": 12345678,
+  "phonenumber:": "457683923",
+  "residence:": "resience 123"
+ },
+ {
+  "docket:": 2,
+  "name:": "Elisabeth",
+  "id:": 27683453,
+  "phonenumber:": "237856226",
+  "residence:": "residence 456"
+ },
+ {
+  "docket:": 3,
+  "name:": "Federico",
+  "id:": 0,
+  "phonenumber:": "928346725",
+  "residence:": "residence789"
+ },
+ {
+  "docket:": 4,
+  "name:": "Rufina",
+  "id:": 56708676,
+  "phonenumber:": "78647986",
+  "residence:": "Home 765"
+ },
+ {
+  "docket:": 8,
+  "name:": "Emanuel",
+  "id:": 89435693,
+  "phonenumber:": "29385684235",
+  "residence:": "Home 901"
+ }
+]

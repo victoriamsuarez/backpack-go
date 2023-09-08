@@ -8,7 +8,10 @@ import (
 func main() {
 
 	defer func() {
-		fmt.Println("Initializing...")
+		err := recover()
+		if err != nil {
+			fmt.Println(err)
+		}
 		fmt.Println("run finished")
 	}()
 	file, err := os.Open("./customers.txt")
